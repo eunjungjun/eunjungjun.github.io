@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jun's Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Lightbox CSS-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&amp;display=swap">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="Favicon.ico?">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="sidebar-inner d-flex flex-column">
+        <div class="px-4 py-5"><a href="index.html"><span style="display: inline-block; width: 90px; font-size: 50px;">JUN</span></div>
+        <div class="sidebar-menu-holder flex-grow-1">
+          <ul class="sidebar-menu list-unstyled">
+            <li class="mb-2 pb-1">
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="index.html">Home</a>
+            </li>
+            <li class="mb-2 pb-1">
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="text.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="page-holder">
+      <div class="px-4 d-block d-lg-none">
+        <!-- navbar-->
+        <header class="header">
+          <nav class="navbar navbar-expand-lg navbar-light px-0">
+            <button class="navbar-toggler navbar-toggler-right text-sm text-uppercase" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <svg class="svg-icon svg-icon-heavy svg-icon-sm text-dark">
+                <use xlink:href="#menu-hamburger-1"> </use>
+              </svg>
+            </button><a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="" width="50"></a>
+          </nav>
+        </header>
+      </div>
+      <div class="px-4 py-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-7">
+              <h1>Jumbo Privacy User FAQ</h1>
+              <p class="text-muted mb-5">A story of my ongoing work in front-end development of Jumbo's user FAQ.</p>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-lg-7"><a href="img/JumboPrevious.jpg" data-lightbox="image-1" data-title="Previous layout with discrete pages for each individual article."><img class="img-fluid mb-4" src="img/JumboPrevious.jpg" alt=""></a><a href="img/JumboCurrent.jpg" data-lightbox="image-1" data-title="Current format with collapsible dropdown-style questions."><img class="img-fluid mb-4" src="img/JumboCurrent.jpg" alt=""></a><a href="img/LightboxExample.png" data-lightbox="image-1" data-title="Example of the small images and the lightbox carousel that was created."><img class="img-fluid mb-4" src="img/LightboxExample.png" alt=""></a><a href="img/LinkExample.jpg" data-lightbox="image-1" data-title="Example of a link that leads a user directly to the question they need."><img class="img-fluid mb-4" src="img/LinkExample.jpg" alt=""></a></div>
+            <div class="col-lg-5 position-sticky">
+              <h2>Info</h2>
+              <p class="text-muted"><a href="https://support.jumboprivacy.com/" target="_blank">View the official FAQ page here.</a></p>
+              <h5 class="text-muted"><i>The starting point:</i></h5>
+              <p class="text-muted">Jumbo Privacy is a mobile app company, and the FAQ is available both through desktop and from within the app itself.</p>
+              <p class="text-muted">I took on the task of developing the FAQ when it was still in its very early stages. The following changes were done using HTML, CSS, and JavaScript/jQuery.</p>
+              <p class="text-muted">Beyond writing new articles and making small aesthetic changes, there were two areas I wanted to improve after conducting usability interviews:</p>
+              <ol class="text-muted">
+                <li><strong><u>Optimizing navigation</u></strong><br>Individual articles were separated into discrete links. Users had to tap each link to view each article, then go back to the main list of questions in order to view another, making the process of viewing multiple questions tedious.</li><br>
+                <li><strong><u>Making the layout user friendly on mobile</u></strong><br>Tutorial images in the FAQ were small and hard to see without zooming in, especially for our older users.</li>
+              </ol>
+              <hr>
+              <h5 class="text-muted"><i>Identifying and creating solutions:</i></h5>
+              <ol class="text-muted">
+              <li><p>For my first goal, I knew I wanted users to be able to scroll through one page for their answers, minimizing any back-and-forth. But, I also didn't want to make the page overly long.</p><p>My solution was to group articles into one page and make each one into a collapsible dropdown that could be expanded and condensed. This allowed users to easily pick and choose one or more questions to view without having to navigate to multiple pages.</p></li>
+              <li><p>For the second, one possible workaround was displaying each image in its original size, making them easier to see. However, the main drawback was that the images would make the page too long and would require more scrolling. In addition, it wasn't aesthetically pleasing to have the tutorial images lined up vertically rather than horizontally in one row.</p><p>I decided to create a lightbox image carousel that enlarged the images when tapped and also allowed users to follow the tutorial steps at the same time, eliminating the need to zoom in on each image individually.</p></li>
+              </ol>
+              <hr>
+              <h5 class="text-muted"><i>Another QoL change:</i></h5>
+              <p class="text-muted">After implementing the collapsible dropdowns, I realized that linking users to a specific question had become more difficult. Just providing the basic URL for each page meant that users then needed to search for the question they wanted answered.</p>
+              <p class="text-muted">To solve this, common article questions were assigned their own unique ID (#_____). Our team could then easily direct users to where they wanted to go by adjusting the ID included in the provided URL. Upon following the link, the user would automatically be brought to the exact article they needed on the page.</p><p class="text-muted">Example:</p><ul class="text-muted"><li><a href="https://support.jumboprivacy.com/article/152-other-apps#instagram-restore-posts" target="_blank">URL with a unique ID</a></li><li><a href="https://support.jumboprivacy.com/article/152-other-apps" target="_blank">URL without a unique ID</a></li></ul>
+              <hr>
+              <h5 class="text-muted"><i>Final thoughts:</i></h5>
+              <p class="text-muted">While the FAQ continues to evolve with other code changes, I've learned some things from my experience so far of working on the FAQ:</p>
+              <ul class="text-muted"><li>Implemented solutions can introduce new issues, but these obstacles are new opportunities to further better the product.</li><li>Always keep the end user and the context that they'll be using the product in when deciding what changes to make.</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
+    <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="js/front.js"></script>
+    <script>
+      // ------------------------------------------------------- //
+      //   Inject SVG Sprite - 
+      //   see more here 
+      //   https://css-tricks.com/ajaxing-svg-sprite/
+      // ------------------------------------------------------ //
+      function injectSvgSprite(path) {
+      
+          var ajax = new XMLHttpRequest();
+          ajax.open("GET", path, true);
+          ajax.send();
+          ajax.onload = function(e) {
+          var div = document.createElement("div");
+          div.className = 'd-none';
+          div.innerHTML = ajax.responseText;
+          document.body.insertBefore(div, document.body.childNodes[0]);
+          }
+      }
+      // this is set to BootstrapTemple website as you cannot 
+      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+      // while using file:// protocol
+      // pls don't forget to change to your domain :)
+      injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg'); 
+      
+    </script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </body>
+</html>
