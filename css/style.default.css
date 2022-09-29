@@ -57,6 +57,7 @@ body {
 * ==========================================
 *
 */
+
 .sidebar {
   width: 18rem;
   height: 100vh;
@@ -91,19 +92,22 @@ body {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
+  width: 33% !important;
+  display: block !important;
 }
 
 .sidebar-link.active {
-  color: #ff95cb;
+  color: #8F3985;
 }
 
 .sidebar-link.active, .sidebar-link.active:hover, .sidebar-link.active:focus {
-  text-decoration: none;
+  background-color: rgba(143,57,133,0.2);
+  border-radius: 0px 10px 10px 0px;
 }
 
 .sidebar-link:hover, .sidebar-link:focus {
   text-decoration: none;
-  background: white;
+  background: #FFFEF8;
 }
 
 .listing-item {
@@ -130,7 +134,7 @@ body {
 }
 
 .listing-item:hover .listing-img-holder::before {
-  border: 10px solid white;
+  border: 10px solid #FFFEF8;
 }
 
 .listing-item:hover .listing-item-heading {
@@ -155,7 +159,8 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  border: 3px solid white;
+  border: 3px solid #FFFEF8;
+  border-radius: 25px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -1325,8 +1330,8 @@ STYLE SWITCHER FOR DEMO
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #ec2f6c;
-  border-color: #eb2364;
+  background-color: #8F3985;
+  border-color: #8F3985;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -1893,8 +1898,9 @@ a {
 }
 
 a:hover, a:focus {
-  color: #e01557;
+  color: #8F3985;
   text-decoration: underline;
+  border-radius: 0px 10px 10px 0px;
 }
 
 h1,
@@ -1913,7 +1919,7 @@ h6,
   font-family: inherit;
   font-weight: 700;
   line-height: 1.2;
-  color: inherit;
+  color: #8F3985;
 }
 
 h1,
