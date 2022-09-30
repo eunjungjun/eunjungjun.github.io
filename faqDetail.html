@@ -57,36 +57,132 @@
           <div class="row">
             <div class="col-lg-7">
               <h1>Jumbo Privacy User FAQ</h1>
-              <p class="text-muted mb-5">A story of my ongoing work in front-end development of Jumbo's user FAQ.</p>
+              <p class="text-muted mb-5">A story of diving into the front-end development and redesign of a FAQ</p>
             </div>
           </div>
-          <div class="row mb-5">
-            <div class="col-lg-7"><a href="img/JumboPrevious.jpg" data-lightbox="image-1" data-title="Previous layout with discrete pages for each individual article."><img class="img-fluid mb-4" src="img/JumboPrevious.jpg" alt=""></a><a href="img/JumboCurrent.jpg" data-lightbox="image-1" data-title="Current format with collapsible dropdown-style questions."><img class="img-fluid mb-4" src="img/JumboCurrent.jpg" alt=""></a><a href="img/LightboxExample.png" data-lightbox="image-1" data-title="Example of the small images and the lightbox carousel that was created."><img class="img-fluid mb-4" src="img/LightboxExample.png" alt=""></a><a href="img/LinkExample.jpg" data-lightbox="image-1" data-title="Example of a link that leads a user directly to the question they need."><img class="img-fluid mb-4" src="img/LinkExample.jpg" alt=""></a></div>
-            <div class="col-lg-5 position-sticky">
-              <h2>Info</h2>
-              <h5 class="text-muted"><i>The starting point:</i></h5>
-              <p class="text-muted">Jumbo Privacy is a mobile app company, and the FAQ is available both through desktop and from within the app itself.</p>
-              <p class="text-muted">I took on the task of developing the FAQ when it was still in its very early stages. The following changes were done using HTML, CSS, and JavaScript/jQuery.</p>
-              <p class="text-muted">Beyond writing new articles and making small aesthetic changes, there were two areas I wanted to improve after conducting usability interviews:</p>
-              <ol class="text-muted">
-                <li><strong><u>Optimizing navigation</u></strong><br>Individual articles were separated into discrete links. Users had to tap each link to view each article, then go back to the main list of questions in order to view another, making the process of viewing multiple questions tedious.</li><br>
-                <li><strong><u>Making the layout user friendly on mobile</u></strong><br>Tutorial images in the FAQ were small and hard to see without zooming in, especially for our older users.</li>
-              </ol>
-              <hr>
-              <h5 class="text-muted"><i>Identifying and creating solutions:</i></h5>
-              <ol class="text-muted">
-              <li><p>For my first goal, I knew I wanted users to be able to scroll through one page for their answers, minimizing any back-and-forth. But, I also didn't want to make the page overly long.</p><p>My solution was to group articles into one page and make each one into a collapsible dropdown that could be expanded and condensed. This allowed users to easily pick and choose one or more questions to view without having to navigate to multiple pages.</p></li>
-              <li><p>For the second, one possible workaround was displaying each image in its original size, making them easier to see. However, the main drawback was that the images would make the page too long and would require more scrolling. In addition, it wasn't aesthetically pleasing to have the tutorial images lined up vertically rather than horizontally in one row.</p><p>I decided to create a lightbox image carousel that enlarged the images when tapped and also allowed users to follow the tutorial steps at the same time, eliminating the need to zoom in on each image individually.</p></li>
-              </ol>
-              <hr>
-              <h5 class="text-muted"><i>Another QoL change:</i></h5>
-              <p class="text-muted">After implementing the collapsible dropdowns, I realized that linking users to a specific question had become more difficult. Just providing the basic URL for each page meant that users then needed to search for the question they wanted answered.</p>
-              <p class="text-muted">To solve this, common article questions were assigned their own unique ID (#_____). Our team could then easily direct users to where they wanted to go by adjusting the ID included in the provided URL. Upon following the link, the user would automatically be brought to the exact article they needed on the page.</p><p class="text-muted">Example:</p><ul class="text-muted"><li><a href="https://support.jumboprivacy.com/article/152-other-apps#instagram-restore-posts" target="_blank">URL with a unique ID</a></li><li><a href="https://support.jumboprivacy.com/article/152-other-apps" target="_blank">URL without a unique ID</a></li></ul>
-              <hr>
-              <h5 class="text-muted"><i>Final thoughts:</i></h5>
-              <p class="text-muted">While the FAQ continues to evolve with other code changes, I've learned some things from my experience so far of working on the FAQ:</p>
-              <ul class="text-muted"><li>Implemented solutions can introduce new issues, but these obstacles are new opportunities to further better the product.</li><li>Always keep the end user and the context that they'll be using the product in when deciding what changes to make.</li></ul>
+          <div class="row text-muted">
+            <div class="col-lg-4">
+              <h5>Team composition</h5>
+              <p>
+              · Role: user support & success
+              <br>
+              · Solo project
+              </p>
             </div>
+            <div class="col-lg-4">
+              <h5>Timeline</h5>
+              <p>
+                · August 2021 - December 2021 (5 months)
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <h5>My work</h5>
+              · Usability tests
+              <br>
+              · Journey maps
+              <br>
+              · Interaction design
+              <br>
+            </div>
+          </div>
+          <br>
+          <div class="row text-muted">
+            <div class="col-lg-12">
+              <h5>Overview</h5>
+              <p>
+                Jumbo Privacy is an app startup that aims to help users manage their online presence and protect their data privacy. The scope of this project was ambiguous: make the overall user experience of the FAQ better in order to expand the Support team resources. The somewhat nebulous guidelines made it difficult for me to initially decide where to start. However, I was working in a user support and success role and was able to observe the user experience from two different perspectives: from interactions through tickets and from user interviews, and these experiences helped inform what design decision paths I needed to pursue.
+              </p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-lg-7">
+              <h5>Process</h5>
+            </div>
+          </div>
+          <div class="row text-muted">
+            <div class="col-lg-4">
+              <p class="verticalAlign">
+                Through 5 usability test sessions, I found the main areas for improvement were the navigational structure of articles and hard-to-follow tutorials.
+              </p>
+            </div>
+            <div class="col-lg-8" style="display:flex; justify-content: center;">
+              <img class="img-fluid" src="img/Usability.png" alt="" style="max-height:250px;margin:auto;">
+            </div>
+          </div>
+          <br>
+          <div class="row text-muted">
+            <div class="col-lg-4">
+              <p class="verticalAlign">
+                Over the course of 20 journey mapping interviews, I discovered that almost all of the users would open Jumbo in short bursts, and some while on the go.
+              </p>
+            </div>
+            <div class="col-lg-8" style="display:flex; justify-content: center;">
+              <img class="img-fluid" src="img/JourneyMap.png" alt="" style="max-height: 250px;margin:auto; float:left;">
+            </div>
+          </div>
+          <br>
+          <div class="row text-muted">
+            <div class="col-lg-4">
+              <p class="verticalAlign">
+                Jumbo's Support team mainly communicates with users over email. To make it easier for Support to direct users to helpful articles, any provided FAQ links should go directly to the article in question.
+              </p>
+            </div>
+            <div class="col-lg-8" style="display:flex; justify-content: center;">
+              <img class="img-fluid" src="img/Direct.png" alt="" style="max-height: 250px;">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7">
+              <h5>Design decisions</h5>
+            </div>
+          </div>
+          <div class="row text-muted">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="img/onePage.png" alt="" style="max-height:500px;margin:auto;">
+            </div>
+            <div class="col-lg-6">
+              <p class="verticalAlign">
+                Multiple articles are now organized into a one-page layout that a user can scroll through using one hand, making it easy to navigate Jumbo on the go. With one tap, each article can be expanded or collapsed for easy viewing.
+              </p>
+            </div>
+          </div>
+          <br>
+          <div class="row text-muted">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="img/lightbox.png" alt="" style="max-height:500px;margin:auto;">
+            </div>
+            <div class="col-lg-6" style="display:flex; justify-content: center;">
+              <p class="verticalAlign">
+                Tutorials now have an associated lightbox that allows users to enlarge the images and follow the tutorial text at the same time.
+              </p>
+            </div>
+          </div>
+          <br>
+          <div class="row text-muted">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="img/directLink.png" alt="" style="max-height:500px;margin:auto;">
+            </div>
+            <div class="col-lg-6" style="display:flex; justify-content: center;">
+              <p class="verticalAlign">
+                Each article in the one-page layout is assigned its own unique ID. By adjusting the ID in the URL, this minimizes the user's cognitive load and reduces the number of messages the Support team sends to answer user questions.
+              </p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-lg-7">
+              <h5>Conclusion</h5>
+            </div>
+          </div>
+          <div class="row text-muted">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="img/Outcomes.png" alt="" style="max-height:500px;margin:auto;">
+            </div>
+            <div class="col-lg-6" style="display:flex; justify-content: center;">
+              <img class="img-fluid" src="img/Learnings.png" alt="" style="max-height:500px;margin:auto;">
+            </div>
+          </div>
           </div>
         </div>
       </div>
