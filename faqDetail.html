@@ -32,9 +32,6 @@
             <li class="mb-2 pb-1">
               <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="index.html">Home</a>
             </li>
-            <li class="mb-2 pb-1">
-              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="text.html">About</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -56,12 +53,19 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-7">
-              <h1>Jumbo Privacy User FAQ</h1>
+              <h1><span style="color: #ae0043">Jumbo Privacy User FAQ</span></h1>
               <p class="text-muted mb-5">A story of diving into the front-end development and redesign of a FAQ</p>
             </div>
           </div>
           <div class="row text-muted">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
+              <h4>—Overview—<span class="h5 text-muted"> The start of it all</span></h4>
+              <br>
+              <p>
+                Jumbo Privacy is an app startup that aims to help users manage their online presence and protect their data privacy. <strong>The scope of this project was ambiguous because my only given goal was just to make the overall user experience of the FAQ better.</strong> The somewhat nebulous guidelines made it difficult for me to initially decide where to start. However, observation of the user experience from two different perspectives: from interactions through tickets and from user interviews helped inform what design decision paths I needed to pursue.
+              </p>
+            </div>
+            <div class="col-lg-2">
               <h4>Team composition</h4>
               <p>
               · Role: user support & success
@@ -69,13 +73,13 @@
               · Solo project
               </p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-2">
               <h4>Timeline</h4>
               <p>
                 · January 2021 - April 2021 (4 months)
               </p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-2">
               <h4>My work</h4>
               · Usability tests
               <br>
@@ -83,17 +87,6 @@
               <br>
               · Front-end development
               <br>
-            </div>
-          </div>
-          <br>
-          <br>
-          <div class="row text-muted">
-            <div class="col-lg-12">
-              <h4>—Overview—<span class="h5 text-muted"> The start of it all</span></h4>
-              <br>
-              <p>
-                Jumbo Privacy is an app startup that aims to help users manage their online presence and protect their data privacy. <strong>The scope of this project was ambiguous because my only given goal was just to make the overall user experience of the FAQ better.</strong> The somewhat nebulous guidelines made it difficult for me to initially decide where to start. However, observation of the user experience from two different perspectives: from interactions through tickets and from user interviews helped inform what design decision paths I needed to pursue.
-              </p>
             </div>
           </div>
           <br>
@@ -109,31 +102,36 @@
               <img class="img-fluid" src="img/Usability.png" alt="" style="margin:auto;">
             </div>
             <div class="col-lg-6">
-              <p class="verticalAlign">
-                First, I conducted 5 usability test sessions in order to identify user pain points. I found that the main areas for improvement were the navigational structure of articles and hard-to-follow tutorials. For the former particularly, the pain point was due to each individual article existing on its own discrete page, making it tedious for users to go back and forth if they wanted to read multiple articles in one session.
+              <p>
+                <h4><span style="color: #ae0043">Pain points were tedious navigation and tutorials</span></h4>
+                <br>
+                First, I conducted 5 usability tests to identify pain points. In particular, the navigation suffered from each individual article having its own page, making it tedious for users to go back and forth to read multiple articles.
               </p>
             </div>
           </div>
           <br>
           <div class="row text-muted">
             <div class="col-lg-6" style="display:flex; justify-content: center;">
-              <img class="img-fluid" src="img/JourneyMap.png" alt="" style="margin:auto; float:left;">
+              <img class="img-fluid" src="img/JourneyMap.png" alt="" style="margin:auto;">
             </div>
             <div class="col-lg-6">
-              <p class="verticalAlign">
-                Then, over the course of 20 journey mapping interviews, I discovered that many of our users followed a similar journey in getting to Jumbo. Another interesting point was that almost all of the users would open Jumbo in short bursts, and some while on the go.
+              <p>
+                <h4><span style="color: #ae0043">People used Jumbo in short bursts and on the go</span></h4>
+                <br>
+                Then, through 20 journey mapping interviews, I discovered many of our users followed similar journeys in getting to Jumbo. Another interesting point was that almost all users would open Jumbo in short bursts, and some while on the go.
               </p>
             </div>
-          </div>
           </div>
           <br>
           <div class="row text-muted">
             <div class="col-lg-6" style="display:flex; justify-content: center;">
-              <img class="img-fluid" src="img/Direct.png" alt="" style="">
+              <img class="img-fluid" src="img/Direct.png" alt="" style="margin-auto;">
             </div>
             <div class="col-lg-6">
-              <p class="verticalAlign">
-                Finally, Jumbo's Support team mainly communicates with users over email and often provides links to resources for them. To make it easier for Support to direct users to helpful articles, I knew that I wanted my future redesign to continue supporting this particular support interaction.
+              <p>
+                <h4><span style="color: #ae0043">Redesign should bolster Support-User interactions</span></h4>
+                <br>
+                Finally, the Support team communicates with users over email and often provides links to resources for them. I knew that I wanted my future redesign to make it easier for Support to direct users to helpful articles.
               </p>
             </div>
           </div>
@@ -147,8 +145,10 @@
           <br>
           <div class="row text-muted">
             <div class="col-lg-6">
-              <p class="verticalAlign">
-                After conducting my research, one of the first changes I made was to organize articles into a one-page layout that a user can scroll through using one hand, making it easy to navigate Jumbo even on the go. With one tap, each article can be expanded or collapsed for easy viewing.
+              <p>
+                <h4><span style="color: #ae0043">One page-one hand navigation</span></h4>
+                <br>
+                After conducting my research, the first change I made was to organize articles into a one-page layout that could be scrolled with one hand, making it easy to navigate Jumbo even on the go. With a tap, each article can be expanded or collapsed.
               </p>
             </div>
             <div class="col-lg-6">
@@ -157,8 +157,10 @@
           </div>
           <br>
           <div class="row text-muted">
-            <div class="col-lg-6" style="display:flex; justify-content: center;">
-              <p class="verticalAlign">
+            <div class="col-lg-6">
+              <p>
+                <h4><span style="color: #ae0043">Lightbox-based tutorials</span></h4>
+                <br>
                 Tutorials now have an associated lightbox. With just a tap, users are able to enlarge the images and follow the tutorial text at the same time. They can also jump to any point in the tutorial using the image previews at the bottom of the lightbox.
               </p>
             </div>
@@ -168,9 +170,11 @@
           </div>
           <br>
           <div class="row text-muted">
-            <div class="col-lg-6" style="display:flex; justify-content: center;">
-              <p class="verticalAlign">
-                Incorporating the one-page layout also meant that I had to change how links worked. In the new FAQ, each article is assigned its own unique ID. By adjusting the ID in the URL, the Support team can directly send a user to any article on a certain page, and, through some JavaScript, automatically expand the question to reduce friction for the user as much as possible.
+            <div class="col-lg-6">
+              <p>
+                <h4><span style="color: #ae0043">Easily linking users to specific articles they need</span></h4>
+                <br>
+                Incorporating the new layout meant I had to rework links. Each article was assigned its own unique ID--by adjusting the ID in the URL, Support can send users to any article, and the JavaScript automatically expands it to reduce friction.
               </p>
             </div>
             <div class="col-lg-6">
