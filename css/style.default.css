@@ -61,6 +61,10 @@ body {
   overflow-x: hidden;
 }
 
+.main {
+  overflow-y: hidden;
+}
+
 .page-holder {
   width: calc(100% - $sidebar-width);
   margin-left: 18rem;
@@ -165,7 +169,7 @@ body {
 }
 
 .listing-item:hover .listing-img-holder::before {
-  border: 10px solid #ae0043;
+  border: 5px solid #ae0043;
 }
 
 .listing-item:hover .listing-item-heading {
@@ -190,8 +194,8 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  border: 5px solid #86415c;
-  border-radius: 30px;
+  border: 3px solid rgba(232,207,207);
+  border-radius: 20px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }

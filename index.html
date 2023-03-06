@@ -23,8 +23,8 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
-  <body>
-    <div class="sidebar bordered" style="border-right: 10px double rgba(134, 65, 92, 0.5) !important;">
+  <body class="main">
+    <div class="sidebar">
       <div class="sidebar-inner d-flex flex-column">
         <div class="px-4 py-5"><a href="index.html"><span style="display: inline-block; width: 90px; font-size: 50px;">JUN</span></div>
         <div class="sidebar-menu-holder flex-grow-1">
@@ -33,13 +33,13 @@
               <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small active" href="index.html">Home</a>
             </li>
             <li class="mb-2 pb-1">
-              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="#jumbo">Jumbo</a>
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="cherishDetail.html">Cherish</a>
             </li>
             <li class="mb-2 pb-1">
-              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="#ersilia">Ersilia</a>
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="ersiliaDetail.html">Ersilia</a>
             </li>
             <li class="mb-2 pb-1">
-              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="#cherish">Cherish</a>
+              <!-- Link--><a class="sidebar-link h6 text-uppercase letter-spacing-2 font-weight-bold text-small" href="dmvDetail.html">DMV</a>
             </li>
           </ul>
         </div>
@@ -89,7 +89,7 @@
         <div class="col-lg-9 col-md-9 grid-item mt-5 mb-5" style="margin: auto;">
           <div class="listing-item">
             <div class="row">
-              <div class="col-sm-3"><img class="img-fluid img-thumbnail rounded-circle" src="img/Profile.jpg" style="border: 2px solid rgba(174,0,67,0.15) !important" alt=""></div>
+              <div class="col-sm-3"><img class="img-fluid img-thumbnail rounded-circle" src="img/Profile.jpg" style="border: 2px solid rgba(232,207,207) !important" alt=""></div>
               <div class="col-sm-9">
                 <h1 class="font-weight-normal">Hello! I'm Joanne <span style="color: #ae0043;"><strong>Jun</strong></span></h1>
                 <h1 class="font-weight-normal"><span style="color: #ae0043;"><strong>MIMS '24</strong></span> student @ UC Berkeley</h1>
@@ -104,64 +104,66 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-9 col-md-9 grid-item mb-4" id="jumbo" style="margin: auto;">
-          <div class="listing-item">
-            <div class="position-relative">
-              <ul class="list-inline listing-tags m-0">
-                <li class="list-inline-item"><span class="reset-anchor font-weight-normal text-gray text-small">Jumbo Privacy</span></li>
-              </ul><a class="reset-anchor d-block listing-img-holder" href="faqDetail.html"><img class="img-fluid" src="img/JumboLink.png" alt="" style="border-radius: 25px;">
-                <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Read more</span>
-                  <svg class="svg-icon text-primary svg-icon-sm ml-2">
-                    <use xlink:href="#arrow-right-1"> </use>
-                  </svg>
-                </p></a>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 grid-item mb-4" id="jumbo" style="margin: auto;">
+            <div class="listing-item">
+              <div class="position-relative">
+                <ul class="list-inline listing-tags m-0">
+                  <li class="list-inline-item"><span class="reset-anchor font-weight-normal text-gray text-small">Cherish</span></li>
+                </ul><a class="reset-anchor d-block listing-img-holder" href="cherishDetail.html"><img class="img-fluid" src="img/cherish.png" alt="" style="border-radius: 25px;">
+                  <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Read more</span>
+                    <svg class="svg-icon text-primary svg-icon-sm ml-2">
+                      <use xlink:href="#arrow-right-1"> </use>
+                    </svg>
+                  </p></a>
+              </div>
+              <div class="py-3"><a class="reset-anchor" href="faqDetail.html">
+                  <h2 class="h4 listing-item-heading">Mobile App Design</h2></a>
+                <p class="text-small mb-0 listing-item-description">Reminiscing about designing a mobile experience from the ground up</p>
+              </div>
+              <br>
+              <br>
             </div>
-            <div class="py-3"><a class="reset-anchor" href="faqDetail.html">
-                <h2 class="h4 listing-item-heading">FAQ Website Redesign</h2></a>
-              <p class="text-small mb-0 listing-item-description">A tale of diving into the front-end development and redesign of a FAQ</p>
-            </div>
-            <br>
-            <br>
           </div>
-        </div>
-        <div class="col-lg-9 col-md-9 grid-item mb-4" id="ersilia" style="margin: auto;">
-          <div class="listing-item">
-            <div class="position-relative">
-              <ul class="list-inline listing-tags m-0">
-                <li class="list-inline-item"><span class="reset-anchor font-weight-normal text-gray text-small">Ersilia</span></li>
-              </ul><a class="reset-anchor d-block listing-img-holder" href="ersiliaDetail.html"><img class="img-fluid" src="img/ErsiliaLink.png" alt="" style="border-radius: 25px;">
-                <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Read more</span>
-                  <svg class="svg-icon text-primary svg-icon-sm ml-2">
-                    <use xlink:href="#arrow-right-1"> </use>
-                  </svg>
-                </p></a>
+          <div class="col-lg-3 col-md-3 grid-item mb-4" id="jumbo" style="margin: auto;">
+            <div class="listing-item">
+              <div class="position-relative">
+                <ul class="list-inline listing-tags m-0">
+                  <li class="list-inline-item"><span class="reset-anchor font-weight-normal text-gray text-small">Ersilia</span></li>
+                </ul><a class="reset-anchor d-block listing-img-holder" href="ersiliaDetail.html"><img class="img-fluid" src="img/ersilia.png" alt="" style="border-radius: 25px;">
+                  <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Read more</span>
+                    <svg class="svg-icon text-primary svg-icon-sm ml-2">
+                      <use xlink:href="#arrow-right-1"> </use>
+                    </svg>
+                  </p></a>
+              </div>
+              <div class="py-3"><a class="reset-anchor" href="faqDetail.html">
+                  <h2 class="h4 listing-item-heading">Translating CLI → GUI</h2></a>
+                <p class="text-small mb-0 listing-item-description">One story of transforming a machine-learning model hub</p>
+              </div>
+              <br>
+              <br>
             </div>
-            <div class="py-3"><a class="reset-anchor" href="ersiliaDetail.html">
-                <h2 class="h4 listing-item-heading">Translating CLI → GUI</h2></a>
-              <p class="text-small mb-0 listing-item-description">One story of transforming a machine-learning model hub</p>
-            </div>
-            <br>
-            <br>
           </div>
-        </div>
-        <div class="col-lg-9 col-md-9 grid-item mb-4" id="cherish" style="margin: auto;">
-          <div class="listing-item">
-            <div class="position-relative">
-              <ul class="list-inline listing-tags m-0">
-                <li class="list-inline-item"><span class="reset-anchor font-weight-normal text-gray text-small">Cherish</span></li>
-              </ul><a class="reset-anchor d-block listing-img-holder" href="cherishDetail.html"><img class="img-fluid" src="img/CherishLink.png" alt="" style="border-radius: 25px;">
-                <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Read more</span>
-                  <svg class="svg-icon text-primary svg-icon-sm ml-2">
-                    <use xlink:href="#arrow-right-1"> </use>
-                  </svg>
-                </p></a>
+                  <div class="col-lg-3 col-md-3 grid-item mb-4" id="jumbo" style="margin: auto;">
+            <div class="listing-item">
+              <div class="position-relative">
+                <ul class="list-inline listing-tags m-0">
+                  <li class="list-inline-item"><span class="reset-anchor font-weight-normal text-gray text-small">DMV</span></li>
+                </ul><a class="reset-anchor d-block listing-img-holder" href="dmvDetail.html"><img class="img-fluid" src="img/dmv.png" alt="" style="border-radius: 25px;">
+                  <p class="mb-0 text-primary small d-flex align-items-center listing-btn"> <span>Read more</span>
+                    <svg class="svg-icon text-primary svg-icon-sm ml-2">
+                      <use xlink:href="#arrow-right-1"> </use>
+                    </svg>
+                  </p></a>
+              </div>
+              <div class="py-3"><a class="reset-anchor" href="faqDetail.html">
+                  <h2 class="h4 listing-item-heading">Design Reimagination</h2></a>
+                <p class="text-small mb-0 listing-item-description">A tale of diving into the redesign of the Oregon DMV Real ID process</p>
+              </div>
+              <br>
+              <br>
             </div>
-            <div class="py-3"><a class="reset-anchor" href="cherishDetail.html">
-                <h2 class="h4 listing-item-heading">Mobile App Design</h2></a>
-              <p class="text-small mb-0 listing-item-description">Reminiscing about designing a mobile experience from the ground up</p>
-            </div>
-            <br>
-            <br>
           </div>
         </div>
       </div>
