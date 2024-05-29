@@ -39,7 +39,6 @@
 .sketch-underline {
   background: url(../img/underline.png) bottom left no-repeat;
   background-size: 100% 15px;
-  padding-bottom: 5px;
 }
 
 .detailBullet {
@@ -74,7 +73,7 @@
 }
 
 .px-4.py-5, .sidebar-menu-holder.flex-grow-1, .px-4.py-3, body {
-  background-color: #fdfdff;
+  background-color: #fffffc;
 }
 
 .container-fluid.py-5 {
@@ -149,6 +148,12 @@ body {
   font-style: normal;
 }
 
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /*
 *
 * ==========================================
@@ -197,14 +202,14 @@ body {
 
 .sidebar-link.active, .sidebar-link.active:hover, .sidebar-link.active:focus {
   background-color: rgba(19,42,102,0.75);
-  color: #fdfdff;
+  color: #fffffc;
   border-radius: 0px 10px 10px 0px;
 }
 
 .sidebar-link:hover, .sidebar-link:focus {
   text-decoration: none;
   background: rgba(88,83,128,0.75);
-  color: #fdfdff;
+  color: #fffffc;
 }
 
 .listing-item {
@@ -335,6 +340,7 @@ body {
 
 strong {
   font-weight: 700;
+  color: #a1195d;
 }
 
 /*
@@ -1986,7 +1992,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #120e18;
-  background-color: #fdfdff;
+  background-color: #fffffc;
 }
 
 a {
