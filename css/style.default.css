@@ -241,7 +241,7 @@ body {
 }*/
 
 .listing-item:hover .listing-item-heading {
-  color: #a1195d;
+  color: #132a66;
 }
 
 .listing-item:hover .listing-btn {
@@ -3075,14 +3075,14 @@ code {
   background-color: rgba(88,83,128,0.5);
 }
 
-/* Caption text */
+/* Caption text 
 .text {
   color: #565656 !important;
   font-size: 15px;
   padding-top: 25px;
   width: 100%;
   text-align: center;
-}
+}*/
 
 /* The dots/bullets/indicators */
 .dot {
