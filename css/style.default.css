@@ -3043,7 +3043,7 @@ code {
 }
 
 /* Hide the images by default */
-.slide {
+.slide, .slide_set1, .slide_set2 {
   display: none;
 }
 
