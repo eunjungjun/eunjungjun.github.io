@@ -112,6 +112,12 @@ body {
   margin-left: 18rem;
 }
 
+@media (max-width: 450px) {
+  .main {
+    overflow-y: scroll !important;
+  }
+}
+
 .solway-light {
   font-family: "Solway", serif;
   font-weight: 300;
